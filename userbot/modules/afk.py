@@ -58,7 +58,7 @@ async def mention_afk(mention):
             if mention.sender_id not in USERS:
                 if AFKREASON:
                     await mention.reply(
-                        f"Aye, mera boss busy hai coz `{AFKREASON}`. Me usko btadunga tab tak chup reh."
+                        f"Aye, mera boss busy hai coz `{AFKREASON}`. Me usko btadunga tab tak chup reh.Bakchodi badme karenge"
                     )
                 else:
                     await mention.reply(
